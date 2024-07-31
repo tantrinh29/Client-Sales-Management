@@ -1,0 +1,1 @@
+export const SET_REDIRECT_TO = "SET_REDIRECT_TO";

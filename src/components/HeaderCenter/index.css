@@ -1,0 +1,43 @@
+.history-search {
+    -webkit-mask: url(https://shopfront-cdn.tekoapis.com/static/b2c29b7046b45840.svg) center center / contain no-repeat;
+    mask: url(https://shopfront-cdn.tekoapis.com/static/b2c29b7046b45840.svg);
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+}
+.icon-search {
+    -webkit-mask: url(https://shopfront-cdn.tekoapis.com/static/dc6de02b661eb31c.svg);
+    mask: url(https://shopfront-cdn.tekoapis.com/static/dc6de02b661eb31c.svg);
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-color: #888888;
+    mask-position: center;
+}
+.search-icon {
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    line-height: 1rem;
+    padding: 0.365rem 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #EEEEEE;
+    border-color: #EEEEEE;
+    color: #212121;
+    border-width: 1px;
+    border-style: solid;
+    user-select: none;
+    text-decoration: none;
+    flex-direction: row;
+    position: relative;
+    height: 36px;
+    width: 36px;
+    border-radius: 8px;
+    padding: 0;
+    justify-content: center;
+    border: 0;
+    background-color: transparent;
+}

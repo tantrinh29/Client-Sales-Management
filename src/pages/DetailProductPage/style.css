@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+  color: #000;
+  font-family: "SF Pro Display", sans-serif;
+  background: #fafafa;
+  position: relative;
+  font-size: 16px;
+  word-break: break-word;
+  counter-reset: section;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.pd-box-group .pd-spec-holder tr td {
+  max-width: 100%; /* Đặt chiều rộng tối đa là 100% để tự động thay đổi kích thước */
+  padding: 16px 8px;
+}
+
+.pd-box-group .pd-spec-holder tr td:nth-child(1) {
+  white-space: nowrap;
+}
+
+.pd-spec-holder {
+  color: #212a36;
+}
+
+.pd-spec-holder table {
+  border-collapse: inherit;
+  width: 100%; /* Đặt chiều rộng bằng 100% để tự động căn chỉnh */
+}
+
+.pd-spec-holder tr {
+  background: #fff;
+}
+
+.pd-spec-holder tr:nth-child(odd) {
+  background: #f5f8fd;
+}
+
+.pd-spec-holder tr td {
+  padding: 16px 10px;
+}
